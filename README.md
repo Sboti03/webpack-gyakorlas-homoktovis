@@ -1,3 +1,4 @@
+# Somogyi Botond
 # Webpack gyakarló feladat
 
 ## Telepítés
