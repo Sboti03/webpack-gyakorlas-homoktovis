@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="dist/main.css">
     <script src="dist/main.js"></script>
-    <title>Document</title>
+    <title>Homoktövis</title>
 </head>
 <body>
     <div class="container">
         <section>
-            <div class="text-center orange-bg ">
+            <div class="text-center orange-bg " id="focim">
                 <h1 class="main-title">
                     Homoktövis
                 </h1>
@@ -22,7 +22,7 @@
             <nav class="navbar">
                 <div class="mx-auto">
                     <a href="" class="navbar-link">Homoktövis</a>
-                    <a href="" class="navbar-link">Egészségügyi hatásai</a>
+                    <a href="egeszsegugyi.html" class="navbar-link">Egészségügyi hatásai</a>
                     <a href="" class="navbar-link">Csodanövény</a>
                     <a href="" class="navbar-link">Tudtad-e?</a>
                     <a href="" class="navbar-link">Ellenjavaslat</a>
@@ -47,23 +47,23 @@
                 </p>
             </div>
             <div class="grey-box">
-                <img class="mx-auto d-block inside-margin" src="/images/bokor.jpg" alt="">
+                <img id="bokor-kep" class="mx-auto d-block inside-margin kattKep" src="/images/bokor.jpg" alt="">
             </div>
         </section>
 
         <section>
             <div class="row ">
                 <div class="col-sm-3">
-                    <img class="img-fluid" src="/images/homoktovis_bogyos.jpg" alt="">
+                    <img id="bogyos-kep" class="img-fluid kattKep" src="/images/homoktovis_bogyos.jpg" alt="">
                 </div>
                 <div class="col-sm-3">
-                    <img class="img-fluid" src="/images/homoktovis_parlat.png" alt="">
+                    <img id="parlag-kep" class="img-fluid kattKep" src="/images/homoktovis_parlat.png" alt="">
                 </div>
                 <div class="col-sm-3">
-                    <img class="img-fluid" src="/images/homoktovis_szaritottbogyo.jpg" alt="">
+                    <img id="szaritott-kep" class="img-fluid kattKep" src="/images/homoktovis_szaritottbogyo.jpg" alt="">
                 </div>
                 <div class="col-sm-3">
-                    <img class="img-fluid" src="/images/homoktovis_szaritottorlemeny.jpg" alt="">
+                    <img id="orlemeny-kep" class="img-fluid kattKep" src="/images/homoktovis_szaritottorlemeny.jpg" alt="">
                 </div>
             </div>
         </section>
@@ -129,7 +129,9 @@
                 </p>
             </div>
         </section>
-
+        <section>
+            <input type="color" id="color-pic">
+        </section>
     </div>
     
 </body>
